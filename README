@@ -1,0 +1,12 @@
+choco-solver version 4.10.10 or older is needed to use this SAC implementation, otherwise newer versions should be fine.
+
+testLatinSquare(n,f,r,l) : generates and attempts to solve instances of size n*n pre-filled at f% until r instances are solved.
+l is a node limit (l<=0 for no limit).
+
+testLatinSquare2(n,f,r) : same operation but for the problem of latin squares with alldiffs on 2 rows/columns.
+
+testKillerSudoku() : parses and solves the instances in the killerSudoku-16x16 folder.
+
+Inside each function are two arrays 'tests' and 'Names'. The 'tests' array is used to define which resolution methods are used according to the numbering in the 'Names' array.
+
+Each function then prints the average numbers of nodes and backtracks, and average resolution time of each method (counting solved instances only).

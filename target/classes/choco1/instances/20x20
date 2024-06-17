@@ -1,0 +1,26 @@
+136183 instances de taille 20*20 remplies à 57.99999999999999%
+
+136 instances satisfiables
+135946 instances insatisfiables (101 non-triviales)
+0 timeouts
+
+Average nodes AC: 38
+Average nodes LP: 17
+Average time  AC: 0.006315909s
+Average time  LP: 0.605366s
+
+
+
+
+100 instances de taille 20*20 remplies à 42.0%
+default heuristique
+100 instances satisfiables
+0 instances insatisfiables (0 non-triviales)
+0 timeouts
+
+Average nodes AC: 116
+Average nodes LP: 115
+Average nodes 1LP+AC: 116
+Average time  AC: 0.011879525s
+Average time  LP: 8.776384s
+Average time  1LP+AC: 0.011153444s
